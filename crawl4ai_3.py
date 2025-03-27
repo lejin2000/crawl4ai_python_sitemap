@@ -3,9 +3,9 @@ import aiohttp
 import xml.etree.ElementTree as ET
 from crawl4ai import AsyncWebCrawler
 
-#SITEMAP_URL = "http://www.tranglo.com/page-sitemap.xml" from https://www.tranglo.com/sitemap_index.xml
-SITEMAP_URL = "http://www.tranglo.com/category-sitemap.xml"
-OUTPUT_FILE = "tranglo_category.txt"
+
+SITEMAP_URL = "http://www.a.com/category-sitemap.xml"
+OUTPUT_FILE = "a_category.txt"
 
 def extract_sitemap_urls(sitemap_content):
     """Extract URLs from sitemap XML content."""
