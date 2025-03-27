@@ -26,8 +26,8 @@ This script is a Python script that crawls web pages from a sitemap and saves th
 
 The following variables can be configured:
 
-*   `SITEMAP_URL`: The URL of the sitemap to crawl. Default is `"http://www.tranglo.com/category-sitemap.xml"`.
-*   `OUTPUT_FILE`: The name of the file to save the crawled content to. Default is `"tranglo_category.txt"`.
+*   `SITEMAP_URL`: The URL of the sitemap to crawl. Default is `"http://www.a.com/category-sitemap.xml"`.
+*   `OUTPUT_FILE`: The name of the file to save the crawled content to. Default is `"a_category.txt"`.
 
 ## Functions
 
